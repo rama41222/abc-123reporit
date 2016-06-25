@@ -5,7 +5,7 @@
 
 <body> 
 
-<div class = "cantainer row" style=margin-top:10%;"> 
+<div class = "cantainer row" style=margin-top:6%;"> 
 <div class = "col-md-4"> </div>
 <div id="bod"  class = "col-md-4 wow zoomInLeft" data-wow-delay="0.3s" > 
 
