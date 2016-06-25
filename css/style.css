@@ -1,0 +1,19 @@
+#bod {
+    border: 1px solid #3498db;
+    border-radius: 5px;
+	Padding-bottom:10px;
+	box-shadow: 1px 1px 10px #95a5a6;
+}
+
+#bb{
+	
+	background-color: #3498db;
+    color: white;
+    border:1px solid #3498db;
+	
+}
+
+.lblshade{
+
+	color: #95a5a6;
+}

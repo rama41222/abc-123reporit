@@ -2,31 +2,6 @@
 <html>
 <head>
 <title>PowerSteels ERP</title>
-<style>
-#bod {
-    border: 1px solid #3498db;
-    border-radius: 5px;
-	Padding-bottom:10px;
-	box-shadow: 1px 1px 10px #95a5a6;
-}
-
-#bb{
-	
-	background-color: #3498db;
-    color: white;
-    border:1px solid #3498db;
-	
-}
-
-.lblshade{
-
-	color: #95a5a6;
-}
-
-
-</style>
-
-</head>
 
 <body> 
 
@@ -53,6 +28,7 @@
 <div class = "col-md-4"> </div>
 </div>
 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 <!- Optional theme -->
