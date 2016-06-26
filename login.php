@@ -6,26 +6,26 @@
 <body> 
 
 <div class = "container row" style = "margin-top:6%;"> 
-<div class = "col-md-4"> </div>
-<div id="bod"  class = "col-md-4 wow zoomInLeft" data-wow-delay="0.3s" > 
+	<div class = "col-md-4"> </div>
+	<div id="bod"  class = "col-md-4 wow zoomInLeft" data-wow-delay="0.3s" > 
 
-	<h1 align="center"><small>PowerSteels</small> <br/>ERP </h1> <hr/>
-	<form> 
-		<div id="log"class = "form-group">
-		<label class ="lblshade" for="un">Username : </label><br/>	
-		<input id ="un" type = "text" name = "userName" class = "form-control" placeholder="Username"/><br/>
-		<label class ="lblshade" for="pp">Password : </label><br/>	
-		<input id="pp" type = "password" name="pw" class = "form-control" placeholder="Password"><br/>
-		<button id="bb"class = "btn btn-md "  style="margin:auto; display:block; float:center; border-radius:5px; padding-left:15px;padding-right:15px" type="submit" name="login"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Login</button>
-		</div>
-	</Form>
-	
-	
+		<h1 align="center"><small>PowerSteels</small> <br/>ERP </h1> <hr/>
+		<form> 
+			<div id="log"class = "form-group">
+			<label class ="lblshade" for="un">Username : </label><br/>	
+			<input id ="un" type = "text" name = "userName" class = "form-control" placeholder="Username"/><br/>
+			<label class ="lblshade" for="pp">Password : </label><br/>	
+			<input id="pp" type = "password" name="pw" class = "form-control" placeholder="Password"><br/>
+			<button id="bb"class = "btn btn-md "  style="margin:auto; display:block; float:center; border-radius:5px; padding-left:15px;padding-right:15px" type="submit" name="login"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Login</button>
+			</div>
+		</form>
+		
+		
 
 
 
-</div>
-<div class = "col-md-4"> </div>
+	</div>
+	<div class ="col-md-4"> </div>
 </div>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
