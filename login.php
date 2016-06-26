@@ -16,7 +16,7 @@
 			<input id ="un" type = "text" name = "userName" class = "form-control" placeholder="Username"/><br/>
 			<label class ="lblshade" for="pp">Password : </label><br/>	
 			<input id="pp" type = "password" name="pw" class = "form-control" placeholder="Password"><br/>
-			<button id="bb" class = "btn btn-md" style="margin:auto; display:block; float:center; border-radius:5px; padding-left:15px;padding-right:15px" type="submit" name="login"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Login</button>
+			<button id="bb" class = "btn btn-md animated shake" style="margin:auto; display:block; float:center; border-radius:5px; padding-left:15px;padding-right:15px" type="submit" name="login"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Login</button>
 			</div>
 		</form>
 		
