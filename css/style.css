@@ -8,8 +8,8 @@
 
 #bb{
 	
-	background-color: #3498db;
-    color: white;
+	background-color: white;
+    color: #127cb2;
     border:1px solid #3498db;
 	
 }
@@ -22,4 +22,10 @@
 #log {
 
 	padding: 20px;
+}
+
+#bb:hover {
+    color: white;
+    background-color: #127cb2;
+
 }
