@@ -38,5 +38,9 @@
 #bb:hover {
     color: white;
     background-color: #127cb2;
+    -webkit-transition:0.4s;
+    -ms-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
 
 }

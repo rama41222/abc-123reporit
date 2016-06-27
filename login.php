@@ -11,7 +11,7 @@
 
 		<h1 align="center"><small>PowerSteels</small> <br/>ERP </h1> <hr/>
 		<form> 
-			<div id="log"class = "form-group">
+			<div id="log" class = "form-group">
 			<label class ="lblshade" for="un">Username : </label><br/>	
 			<input id ="un" type = "text" name = "userName" class = "form-control" placeholder="Username"/><br/>
 			<label class ="lblshade" for="pp">Password : </label><br/>	

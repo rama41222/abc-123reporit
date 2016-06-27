@@ -8,6 +8,7 @@
 		width:250px;
 		border-right:1px solid #3498db ;
 		background-color: #6C7A89;
+		color:white !important;
 	}
 
 	#sidebar{
@@ -30,7 +31,7 @@
 .navbar{
 
 	background-color: white;
-	border-bottom: 1px solid #3498db !important;
+	border-bottom: 1px solid white !important;
     border-radius: 5px !important;
 	box-shadow: 1px 1px 10px #95a5a6 !important;
 	color:white !important;
@@ -41,6 +42,7 @@ a{
 
 	text-decoration: none !important;
 	box-sizing:border-box !important;
+
 
 }
 
@@ -104,7 +106,7 @@ ul#sidenav li a:hover{
 
 
       <a id="space" class="navbar-brand" href="#">
-        <i class="fa fa-paper-plane" aria-hidden="true"></i> PowerSteels ERP
+       <i class="fa fa-paper-plane" aria-hidden="true"></i> <small>PowerSteels</small> ERP
       </a>
     </div>
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -122,8 +124,8 @@ ul#sidenav li a:hover{
 </nav>
 </header>
 <div class = "container row">
-<div id="sidebar" class="container-fluid col-md-3 ">
-	<ul id="sidenav" style="padding-left:0px;">
+<div id="sidebar" class="nav nav-bar navbar-fixed container-fluid col-md-3 ">
+	<ul id="sidenav" style="padding-left:20px;">
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
