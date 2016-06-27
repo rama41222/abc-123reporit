@@ -7,15 +7,16 @@
 	#space {
 		width:250px;
 		border-right:1px solid #3498db ;
-		background-color: #6C7A89;
-		color:white !important;
-	}
+		background-color: white;
+		color:#2c3e50 !important;
+		text-align: center;
+			}
 
 	#sidebar{
 
-		    position: relative;
+		 position: relative;
 
-		background-color: #6C7A89;
+		background-color: white;
 		float:left;
 	
 		margin-top:0;
@@ -23,7 +24,7 @@
 		width:251px;
 		max-height: 100% !important;
 		min-height:100%	!important;
-		border-right:1px solid #3498db ;
+		border-right:1px solid white ;
 		border-left:1px solid white;
 		box-shadow: 1px 1px 10px #95a5a6;
 	}
@@ -54,32 +55,34 @@ ul#sidenav li{
 
 
 ul#sidenav li a{
-	color: #ccc;
+	color: #424242;
 	display: block;
 	padding: 15px;
-	font-size: 1.2em;
+	
 		
-	-webkit-transition:0.2s;
-	-moz-transition:0.2s;
-	-ms-transition:0.2s;
-	-o-transition:0.2s;
-	transition:0.2s;
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+	-ms-transition:0.4s;
+	-o-transition:0.4s;
+	transition:0.4s;
 
 
 }
 ul#sidenav li a.selected {
-	background-color: #ABB7B7;
-	color: #fff;
-	border-radius: 5px;
+	margin-top: 15px;
+	background-color: #ecf0f1;
+	color: #34495e;
+	border-radius: 7px;
 
 
 }
 ul#sidenav li a:hover{
-	background-color: #ABB7B7;
-	border: 1px solid #ABB7B7;
+	margin-top: 10px;
+	background-color: #ecf0f1;
+	border: 1px solid #ecf0f1;
 	border-radius: 5px;
 
-	color: #fff;
+	color: #34495e;
 	padding-left: 30px;
 }
 
@@ -110,12 +113,7 @@ ul#sidenav li a:hover{
       </a>
     </div>
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-     	<form class="navbar-form navbar-left" role="search">
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search">
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+     	
 
 
      </div>
@@ -126,7 +124,7 @@ ul#sidenav li a:hover{
 <div class = "container row">
 <div id="sidebar" class="nav nav-bar navbar-fixed container-fluid col-md-3 ">
 	<ul id="sidenav" style="padding-left:20px;">
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
+		<li><a href="#" class="selected"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
@@ -136,8 +134,8 @@ ul#sidenav li a:hover{
 		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
 	</ul>
 </div>
-<div class="col-md-9"></div>
-3wrew3r
+<div class="container-fluid col-md-9"></div>
+
 
 </div>	
 
