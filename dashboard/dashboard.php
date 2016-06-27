@@ -6,7 +6,6 @@
 	
 	#space {
 		width:250px;
-		border-right:1px solid #3498db ;
 		background-color: white;
 		color:#2c3e50 !important;
 		text-align: center;
@@ -24,18 +23,19 @@
 		width:251px;
 		max-height: 100% !important;
 		min-height:100%	!important;
-		border-right:1px solid white ;
-		border-left:1px solid white;
-		box-shadow: 1px 1px 10px #95a5a6;
+		border-right:1px solid #ecf0f1 ;
+		
 	}
 
 .navbar{
 
-	background-color: white;
-	border-bottom: 1px solid white !important;
+	background-color: white !important;
+	border-bottom: 1px solid #ecf0f1 !important;
     border-radius: 5px !important;
-	box-shadow: 1px 1px 10px #95a5a6 !important;
 	color:white !important;
+	 background-image: none !important;
+
+
 
 
 }
@@ -124,14 +124,17 @@ ul#sidenav li a:hover{
 <div class = "container row">
 <div id="sidebar" class="nav nav-bar navbar-fixed container-fluid col-md-3 ">
 	<ul id="sidenav" style="padding-left:20px;">
-		<li><a href="#" class="selected"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-pencil-square fa-2x" aria-hidden="true"></i> Dashboard</a></li>
+	
+		<li><a href="#" class="selected" ><i class="fa fa-tachometer" aria-hidden="true"></i> &nbsp Dashboard</a></li>
+		<li><a href="#"><i class="fa fa-first-order" aria-hidden="true"></i> &nbsp Order Management</a></li>
+		<li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp Inventory</a></li>
+		<li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> &nbsp Human Resources</a></li>
+		<li><a href="#"><i class="fa fa-location-arrow" aria-hidden="true"></i> &nbsp Fleet Tracking</a></li>
+		<li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> &nbsp Projects</a></li>
+		<li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i> &nbsp Retail Sales</a></li>
+		<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> &nbsp Manage Warehouses</a></li>
+		<li><a href="#"><i class="fa fa-money" aria-hidden="true"></i> &nbsp Office Expenses</a></li>
+		<li><a href="#"><i class="fa fa-universal-access" aria-hidden="true"></i> &nbsp Accounts</a></li>
 	</ul>
 </div>
 <div class="container-fluid col-md-9"></div>
