@@ -2,94 +2,9 @@
 <html>
 <head> 
 <title>Dashboard</title>
-<style>
-	
-	#space {
-		width:250px;
-		background-color: white;
-		color:#2c3e50 !important;
-		text-align: center;
-			}
 
-	#sidebar{
-
-		 position: relative;
-
-		background-color: white;
-		float:left;
-	
-		margin-top:0;
-		margin-bottom: 0;
-		width:251px;
-		max-height: 100% !important;
-		min-height:100%	!important;
-		border-right:1px solid #ecf0f1 ;
-		
-	}
-
-.navbar{
-
-	background-color: white !important;
-	border-bottom: 1px solid #ecf0f1 !important;
-    border-radius: 5px !important;
-	color:white !important;
-	 background-image: none !important;
-
-
-
-
-}
-a{
-
-	text-decoration: none !important;
-	box-sizing:border-box !important;
-
-
-}
-
-ul#sidenav li{
-	list-style:none!important;
-	
-
-}
-
-
-ul#sidenav li a{
-	color: #424242;
-	display: block;
-	padding: 15px;
-	
-		
-	-webkit-transition:0.4s;
-	-moz-transition:0.4s;
-	-ms-transition:0.4s;
-	-o-transition:0.4s;
-	transition:0.4s;
-
-
-}
-ul#sidenav li a.selected {
-	margin-top: 15px;
-	background-color: #ecf0f1;
-	color: #34495e;
-	border-radius: 7px;
-
-
-}
-ul#sidenav li a:hover{
-	margin-top: 10px;
-	background-color: #ecf0f1;
-	border: 1px solid #ecf0f1;
-	border-radius: 5px;
-
-	color: #34495e;
-	padding-left: 30px;
-}
-
-</style>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
 </head>
 
@@ -121,26 +36,31 @@ ul#sidenav li a:hover{
   </div>
 </nav>
 </header>
-<div class = "container row">
-<div id="sidebar" class="nav nav-bar navbar-fixed container-fluid col-md-3 ">
-	<ul id="sidenav" style="padding-left:20px;">
-	
-		<li><a href="#" class="selected" ><i class="fa fa-tachometer" aria-hidden="true"></i> &nbsp Dashboard</a></li>
-		<li><a href="#"><i class="fa fa-first-order" aria-hidden="true"></i> &nbsp Order Management</a></li>
-		<li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp Inventory</a></li>
-		<li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> &nbsp Human Resources</a></li>
-		<li><a href="#"><i class="fa fa-location-arrow" aria-hidden="true"></i> &nbsp Fleet Tracking</a></li>
-		<li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> &nbsp Projects</a></li>
-		<li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i> &nbsp Retail Sales</a></li>
-		<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> &nbsp Manage Warehouses</a></li>
-		<li><a href="#"><i class="fa fa-money" aria-hidden="true"></i> &nbsp Office Expenses</a></li>
-		<li><a href="#"><i class="fa fa-universal-access" aria-hidden="true"></i> &nbsp Accounts</a></li>
-	</ul>
+<div class = "container content-panel row">
+	<div id="sidebar" class="nav nav-bar navbar-fixed  col-md-3 ">
+		<ul id="sidenav" style="padding-left:20px;">
+		
+			<li><a href="#" class="selected" ><i class="fa fa-tachometer red" aria-hidden="true"></i> &nbsp Dashboard</a></li>
+			<li><a href="#"><i class="fa fa-first-order red" aria-hidden="true"></i> &nbsp Order Management</a></li>
+			<li><a href="#"><i class="fa fa-briefcase red" aria-hidden="true"></i> &nbsp Inventory</a></li>
+			<li><a href="#"><i class="fa fa-users red" aria-hidden="true"></i> &nbsp Human Resources</a></li>
+			<li><a href="#"><i class="fa fa-location-arrow red" aria-hidden="true"></i> &nbsp Fleet Tracking</a></li>
+			<li><a href="#"><i class="fa fa-book red" aria-hidden="true"></i> &nbsp Projects</a></li>
+			<li><a href="#"><i class="fa fa-credit-card red" aria-hidden="true"></i> &nbsp Retail Sales</a></li>
+			<li><a href="#"><i class="fa fa-home red" aria-hidden="true"></i> &nbsp Manage Warehouses</a></li>
+			<li><a href="#"><i class="fa fa-money red" aria-hidden="true"></i> &nbsp Office Expenses</a></li>
+			<li><a href="#"><i class="fa fa-universal-access red" aria-hidden="true"></i> &nbsp Accounts</a></li>
+		</ul>
+
+	</div>	
+
+	<div class="col-md-9">
+			
+					rtreterret
+
+	</div>
+
 </div>
-<div class="container-fluid col-md-9"></div>
-
-
-</div>	
 
 
 
@@ -148,6 +68,8 @@ ul#sidenav li a:hover{
 
 
 
+
+<link rel="stylesheet" type ="text/css" href="styles/style.css"/>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>

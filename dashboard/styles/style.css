@@ -1,110 +1,93 @@
-*{
-	margin: 0;
-	padding:0;
+
+	#space {
+		width:250px;
+		background-color: white;
+		color:#2c3e50 !important;
+		text-align: center;
+			}
+
+	#sidebar{
+
+	
+		background-color: white;
+		float:left;
+	
+		margin-top:0;
+		margin-bottom: 0;
+		width:251px;
+		max-height: 100% !important;
+		min-height:100%	!important;
+		border-right:1px solid #ecf0f1 ;
+		
+	}
+
+.navbar{
+
+	background-color: white !important;
+	border-bottom: 1px solid #ecf0f1 !important;
+    border-radius: 5px !important;
+	color:white !important;
+	 background-image: none !important;
+
+
+
 
 }
-
-div#header{
-	height: 70px;
-	background-color: rgba(255,255,255,0.7);
-	
-	border-bottom-right-radius:5px;
-	
-	border-right: 1px solid #3498db;
-	border-bottom: 1px solid #3498db;
-}
-
-
 a{
 
 	text-decoration: none !important;
-	box-sizing:border-box;
-}
-
-.logo{
-
-	
-	margin-top:15px;
-	margin-left: 0px;
+	box-sizing:border-box !important;
 
 
 }
 
-.logo a{
-	font-size: 2em;
-	color:#bdc3c7 ;
-}
-
-.logo a span{
-
-	font-weight: 400;
-	color:black;
-
-}
-
-a:active{
-	color: white;
-	text-decoration: none !important;
-	cursor:pointer;
-}
-
-div#container{
-
-	width: 100%;
-	
-}
-
-.sidebar{
-	width:250px;
-	height: 100% !important;
-	background-color: #0288D1;
-	float:left;
-	
-}
-.content{
-	width:100%;
-	background-color: #fff;
-	padding:5px;
+ul#sidenav li{
+	list-style:none!important;
 	
 
 }
 
-ul#nav{
 
-
-
-}
-
-ul#nav li{
-	list-style:none;
-
-}
-ul#nav li a{
-	color: #ccc;
+ul#sidenav li a{
+	color: #424242;
 	display: block;
 	padding: 15px;
-	font-size: 0.8em;
-		margin:15px;
-	-webkit-transition:0.2s;
-	-moz-transition:0.2s;
-	-ms-transition:0.2s;
-	-o-transition:0.2s;
-	transition:0.2s;
+	
+		
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+	-ms-transition:0.4s;
+	-o-transition:0.4s;
+	transition:0.4s;
 
 
 }
-ul#nav li a.selected {
-	background-color: #ABB7B7;
-	color: #fff;
-	border-radius: 5px;
+ul#sidenav li a.selected {
+	margin-top: 15px;
+	background-color: #ecf0f1;
+	color: #34495e;
+	border-radius: 7px;
 
 
 }
-ul#nav li a:hover{
-	background-color: #ABB7B7;
-	border: 1px solid #ABB7B7;
+ul#sidenav li a:hover{
+	margin-top: 10px;
+	background-color: #ecf0f1;
+	border: 1px solid #ecf0f1;
 	border-radius: 5px;
 
-	color: #fff;
+	color: #34495e;
 	padding-left: 30px;
 }
+
+.red{
+
+	
+	color:#e74c3c !important; 
+}
+.content-panel{
+
+	padding:15px;
+
+}
+
