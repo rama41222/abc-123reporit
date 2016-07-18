@@ -69,7 +69,7 @@
 
 
 
-<link rel="stylesheet" type ="text/css" href="styles/style.css"/>
+<link rel="stylesheet" type ="text/css" href="<?php echo base_url(); ?>styles/style.css"/>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
