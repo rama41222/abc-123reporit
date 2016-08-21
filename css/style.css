@@ -1,46 +1,100 @@
-#bod {
-    border: 1px solid #3498db;
-    border-radius: 5px;
-	padding-bottom:10px;
-	box-shadow: 1px 1px 10px #95a5a6;
-	margin:40px;
-}
 
-#bb{
+	#space {
+		width:250px;
+		background-color: white;
+		color:#2c3e50 !important;
+		text-align: center;
+			}
+
+	#sidebar{
+
 	
-	background-color: white;
-    color: #127cb2;
-    border:1px solid #3498db;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-delay: 1s;
-    -webkit-animation-iteration-count: infinite;
+		background-color: white;
+		float:left;
 	
-	-moz-animation-duration: 4s;
-    -moz-animation-delay: 1s;
-    -moz-animation-iteration-count: infinite;
+		margin-top:0;
+		margin-bottom: 0;
+		width:auto ;
+		max-height: 100% !important;
+		min-height:100%	!important;
+		border-right:1px solid #ecf0f1 ;
+		
+	}
 
-    -ms-animation-duration: 4s;
-    -ms-animation-delay: 1s;
-    -ms-animation-iteration-count: infinite;
+.navbar{
+
+	background-color: white !important;
+	border-bottom: 1px solid #ecf0f1 !important;
+    border-radius: 5px !important;
+	color:white !important;
+	 background-image: none !important;
+
+
+
+
+}
+a{
+
+	text-decoration: none !important;
+	box-sizing:border-box !important;
+
+
+}
+
+ul#sidenav li{
+	list-style:none!important;
 	
-}
-
-.lblshade{
-
-	color: #95a5a6;
-}
-
-#log {
-
-	padding: 20px;
-}
-
-#bb:hover {
-    color: white;
-    background-color: #127cb2;
-    -webkit-transition:0.4s;
-    -ms-transition:0.4s;
-    -moz-transition:0.4s;
-    -o-transition:0.4s;
 
 }
+
+
+ul#sidenav li a{
+	color: #424242;
+	display: block;
+	padding: 15px;
+	
+		
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+	-ms-transition:0.4s;
+	-o-transition:0.4s;
+	transition:0.4s;
+
+
+}
+ul#sidenav li a.selected {
+	margin-top: 15px;
+	background-color: #ecf0f1;
+	color: #34495e;
+	border-radius: 7px;
+
+
+}
+ul#sidenav li a:hover{
+	margin-top: 10px;
+	background-color: #ecf0f1;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
+
+	color: #34495e;
+	padding-left: 30px;
+}
+
+.red{
+
+	
+	color:#33b5e5 !important; 
+}
+.content-panel{
+
+	padding:15px;
+
+}
+
+.breadcrumb {
+
+	background: none !important;
+	 border: 1px solid #dddddd !important;
+    border-radius: 1;
+}
+

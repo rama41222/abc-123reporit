@@ -1,0 +1,46 @@
+#bod {
+    border: 1px solid #3498db;
+    border-radius: 5px;
+	padding-bottom:10px;
+	box-shadow: 1px 1px 10px #95a5a6;
+	margin:40px;
+}
+
+#bb{
+	
+	background-color: white;
+    color: #127cb2;
+    border:1px solid #3498db;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-duration: 4s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+
+    -ms-animation-duration: 4s;
+    -ms-animation-delay: 1s;
+    -ms-animation-iteration-count: infinite;
+	
+}
+
+.lblshade{
+
+	color: #95a5a6;
+}
+
+#log {
+
+	padding: 20px;
+}
+
+#bb:hover {
+    color: white;
+    background-color: #127cb2;
+    -webkit-transition:0.4s;
+    -ms-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+
+}

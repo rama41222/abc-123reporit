@@ -16,6 +16,27 @@ class Login extends CI_Controller {
 		$this->load->view($page);
 
 	}
+	public function members(){
+
+		$this->load->view('member');
+
+
+	}
+
+	public function logMeIn(){
+		
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('username', 'Username', 'trim|required');
+		$this->form_validation->set_rules('password', 'Password', 'trim|required|md5');
+		
+		if($this->form_validation->run()){
+			$this->members();	
+		}else{
+			$this->load->view('login');
+		}
+	}
+	
 
 }
 

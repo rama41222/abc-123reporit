@@ -1,55 +1,59 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-<title>PowerSteels ERP</title>
+	<title>PowerSteels ERP</title>
+</head>
+<body>
+<style type="text/css">
+	
+.error{
 
-<body> 
+	color:red;
+	text-align: left;
+	font-weight: normal;
+}
 
-<div class = "container row" style = "margin-top:6%;"> 
-	<div class = "col-md-4"> </div>
-	<div id="bod"  class = "col-md-4 wow zoomInLeft" data-wow-delay="0.3s" > 
+</style>
 
+<div class="container-fluid row" style="margin-top:15%;">
+
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+
+	<form id="login-form" method="post" action="<?php echo site_url('Login/logMeIn');?>" class="from-group " align="center" style="border: 1px solid #33b5e5; padding:20px; border-radius:10px">
+
+		<div class="form-header">
+			
 		<h1 align="center"><small>PowerSteels</small> <br/>ERP </h1> <hr/>
-		<?php echo form_open('Login/logmein', ['class' => 'form-signin', 'role' => 'form', 'align' => 'center']); ?>
-			<div id="log" class = "form-group">
+		</div>
+		<div class="form-group">
+		<label for="un">Username</label>
+		<input class ="form-control" id="un" type="text" name="username" />
+		<span class="help-block"><?php echo form_error('username');?></span>
 
-			<label class ="lblshade" for="un">Username : </label><br/>	
-			<?php echo form_input(['name' => 'username','type' => 'text', 'id' => 'un', 'class' => 'form-control', 'placeholder' => 'Username']);?>
+		</div>
+		<div class="form-group">
+		<label for="pw">Password</label>
+		<input class ="form-control"  id="pw" type="password" name="password"  />
+		<span class="help-block"><?php echo form_error('password');?></span>
+		</div>
+		<hr>
+		<button id="ff" class="btn btn-primary" name="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
+	</form>
 
-			<label class ="lblshade" for="password">Password : </label><br/>	
-			<?php echo form_password(['name' => 'password', 'type' => 'password', 'id' => 'password', 'class' => 'form-control', 'placeholder' => 'Password']); ?>
-		
-			<button id="bb" class = "btn btn-md animated shake" style="margin:auto;margin-top: 15px; display:block; float:center; border-radius:5px; padding-left:15px;padding-right:15px;" type="submit" name="login"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Login</button>
-			</div>
-		<?php echo form_close(); ?>
 	</div>
-	<div class ="col-md-4"> </div>
+
+
+	<div class="col-md-4"></div>
+
 </div>
-<!-- Latest compiled and minified CSS -->
-
-<link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css" type="text/css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-<!- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-<link rel="stylesheet" href="<?php echo base_url(); ?>css/animate.css">
-<!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
- <script src="<?php echo base_url(); ?>js/wow.min.js"></script>
-              <script>
-               wow = new WOW(
-                      {
-                      boxClass:     'wow',      // default
-                      animateClass: 'animated', // default
-                      offset:       0,          // default
-                      mobile:       true,       // default
-                      live:         true        // default
-                    }
-                    )
-                    wow.init();
-              </script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.1/jquery.validate.min.js"></script>
+<script type="text/javascript" src="<?php echo site_url('js/jqvalidation.js');?>"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
-
-
 </html>
